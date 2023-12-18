@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12963" started-at="2023-12-17T09:56:33Z" finished-at="2023-12-17T09:56:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12963" started-at="2023-12-17T09:56:33Z" finished-at="2023-12-17T09:56:46Z">
+      <class name="login_page.loginpage_test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:login_page.loginpage_test@79b4d0f]" name="setup" is-config="true" duration-ms="9018" started-at="2023-12-17T15:26:33Z" finished-at="2023-12-17T15:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:login_page.loginpage_test@79b4d0f]" name="verifyHomePageTitleTest" duration-ms="3233" started-at="2023-12-17T15:26:42Z" finished-at="2023-12-17T15:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login_page.loginpage_test@79b4d0f]" name="tearDown" is-config="true" duration-ms="698" started-at="2023-12-17T15:26:45Z" finished-at="2023-12-17T15:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login_page.loginpage_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
