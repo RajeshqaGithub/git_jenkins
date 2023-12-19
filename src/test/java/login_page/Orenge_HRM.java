@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class loginpage_test {
+public class Orenge_HRM {
 	WebDriver driver;
 	
 	@BeforeMethod
@@ -22,7 +22,9 @@ public class loginpage_test {
 	@Test
 	public void verifyHomePageTitleTest() throws Throwable
 	{
-		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
+		driver.findElement(By.xpath("//input[@name='username']")).clear();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 		Thread.sleep(3000);

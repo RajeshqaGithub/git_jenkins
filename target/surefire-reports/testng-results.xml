@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14762" started-at="2023-12-19T00:03:37 IST" finished-at="2023-12-19T00:03:51 IST">
+  <suite name="Suite" duration-ms="35362" started-at="2023-12-19T23:12:30 IST" finished-at="2023-12-19T23:13:05 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14762" started-at="2023-12-19T00:03:37 IST" finished-at="2023-12-19T00:03:51 IST">
-      <class name="login_page.loginpage_test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:login_page.loginpage_test@fad74ee]" name="setup" is-config="true" duration-ms="10503" started-at="2023-12-19T00:03:37 IST" finished-at="2023-12-19T00:03:47 IST">
+    <test name="Test" duration-ms="35362" started-at="2023-12-19T23:12:30 IST" finished-at="2023-12-19T23:13:05 IST">
+      <class name="login_page.Update_Naukri">
+        <test-method status="PASS" signature="setup()[pri:0, instance:login_page.Update_Naukri@a38d7a3]" name="setup" is-config="true" duration-ms="9144" started-at="2023-12-19T23:12:50 IST" finished-at="2023-12-19T23:13:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:login_page.loginpage_test@fad74ee]" name="verifyHomePageTitleTest" duration-ms="3393" started-at="2023-12-19T00:03:47 IST" finished-at="2023-12-19T00:03:51 IST">
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:login_page.Update_Naukri@a38d7a3]" name="loginpage" duration-ms="4680" started-at="2023-12-19T23:13:00 IST" finished-at="2023-12-19T23:13:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:login_page.loginpage_test@fad74ee]" name="tearDown" is-config="true" duration-ms="809" started-at="2023-12-19T00:03:51 IST" finished-at="2023-12-19T00:03:51 IST">
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login_page.Update_Naukri@a38d7a3]" name="tearDown" is-config="true" duration-ms="888" started-at="2023-12-19T23:13:04 IST" finished-at="2023-12-19T23:13:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- login_page.loginpage_test -->
+      </class> <!-- login_page.Update_Naukri -->
+      <class name="login_page.Orenge_HRM">
+        <test-method status="PASS" signature="setup()[pri:0, instance:login_page.Orenge_HRM@1a1d6a08]" name="setup" is-config="true" duration-ms="14204" started-at="2023-12-19T23:12:30 IST" finished-at="2023-12-19T23:12:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:login_page.Orenge_HRM@1a1d6a08]" name="verifyHomePageTitleTest" duration-ms="5482" started-at="2023-12-19T23:12:44 IST" finished-at="2023-12-19T23:12:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login_page.Orenge_HRM@1a1d6a08]" name="tearDown" is-config="true" duration-ms="906" started-at="2023-12-19T23:12:50 IST" finished-at="2023-12-19T23:12:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login_page.Orenge_HRM -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

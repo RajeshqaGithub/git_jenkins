@@ -3,7 +3,8 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="login_page.loginpage_test" />
+			<class name="login_page.Orenge_HRM" />
+			<class name="login_page.Update_Naukri" />
 		</classes>
 	</test>
 </suite>
